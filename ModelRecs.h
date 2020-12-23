@@ -1,0 +1,53 @@
+#pragma once
+
+//Anti
+#define LOG_17 (NumVertices == 2487 && primCount == 3006 )
+#define LOG_18 (NumVertices == 899 && primCount == 910)
+#define LOG_19 (NumVertices == 929 && primCount == 1007)
+#define LOG_20 (NumVertices == 475 && primCount == 510)
+#define LOG_21 (NumVertices == 3887 && primCount == 4974)
+#define LOG_22 (NumVertices == 2196 && primCount == 3061)
+#define LOG_23 (NumVertices == 2245 && primCount == 2998)
+#define LOG_24 (NumVertices == 1424 && primCount == 1858)
+#define LOG_25 (NumVertices == 1609 && primCount == 1794)
+#define LOG_26 (NumVertices == 811 && primCount == 989)
+#define LOG_27 (NumVertices == 466 && primCount == 550)
+#define LOG_28 (NumVertices == 343 && primCount == 344)
+#define LOG_29 (NumVertices == 324 && primCount == 372)
+#define LOG_30 (NumVertices == 1404 && primCount == 1919)
+#define LOG_31 (NumVertices == 814 && primCount == 945)
+#define LOG_32 (NumVertices == 499 && primCount == 533)
+#define LOG_33 (NumVertices == 1498 && primCount == 1822)
+#define LOG_34 (NumVertices == 513 && primCount == 451)
+#define LOG_35 (NumVertices == 409 && primCount == 433)
+#define LOG_36 (NumVertices == 369 && primCount == 297)
+#define LOG_37 (NumVertices == 3206 && primCount == 4872)
+#define LOG_38 (NumVertices == 2130 && primCount == 3004)
+#define LOG_39 (NumVertices == 3417 && primCount == 5030)
+#define LOG_40 (NumVertices == 3304 && primCount == 5003)
+#define LOG_41 (NumVertices == 3304 && primCount == 5003)
+//Terror
+#define LOG_0 (NumVertices == 2261 && primCount == 3003)
+#define LOG_1 (NumVertices == 3561)
+#define LOG_2 (NumVertices == 3561 && primCount == 5066)
+#define LOG_3 (NumVertices == 1588 && primCount == 2013)
+#define LOG_4 (NumVertices == 3265 && primCount == 5015)
+#define LOG_5 (NumVertices == 2274 && primCount == 3070)
+#define LOG_6 (NumVertices == 1510 && primCount == 1871)
+#define LOG_7 (NumVertices == 873 && primCount == 986)
+#define LOG_8 (NumVertices == 526 && primCount == 594)
+#define LOG_9 (NumVertices == 911 && primCount == 996)
+#define LOG_10 (NumVertices == 3210 && primCount == 4503)
+#define LOG_11 (NumVertices == 2292 && primCount == 3015)
+#define LOG_12 (NumVertices == 1488 && primCount == 1819)
+#define LOG_13 (NumVertices == 835 && primCount == 899)
+#define LOG_14 (NumVertices == 554 && primCount == 509)
+#define LOG_15 (NumVertices == 563 && primCount == 590)
+#define LOG_16 (NumVertices == 389 && primCount == 386)
+
+
+#define terror (LOG_0 || LOG_1 || LOG_2 || LOG_3 || LOG_4 || LOG_5 || LOG_6 || LOG_7 || LOG_8 || LOG_9 || LOG_10 || LOG_11 || \
+LOG_12 || LOG_13 || LOG_14 || LOG_15 || LOG_16 )
+
+#define antiterror (LOG_17 || LOG_18 || LOG_19 || LOG_20 || LOG_21 || LOG_22 || LOG_23 || \
+LOG_24 || LOG_25 || LOG_26 || LOG_27 || LOG_28 || LOG_29 || LOG_30 || LOG_31 || LOG_32 || LOG_33 || LOG_34 || LOG_35 || LOG_36 || LOG_37 || LOG_38 || LOG_39 || LOG_40 || LOG_41 )
